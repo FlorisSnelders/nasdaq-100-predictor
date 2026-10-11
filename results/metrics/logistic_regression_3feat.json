@@ -1,0 +1,56 @@
+{
+  "model_name": "logistic_regression_3feat",
+  "description": "Logistic regression on the 3 production features",
+  "per_fold": [
+    {
+      "fold": 1,
+      "test_year": 2020,
+      "accuracy": 0.5373870172555464,
+      "precision": 0.537596048298573,
+      "f1": 0.6987693953986088
+    },
+    {
+      "fold": 2,
+      "test_year": 2021,
+      "accuracy": 0.5319028551532033,
+      "precision": 0.5309463835912198,
+      "f1": 0.6870180135610977
+    },
+    {
+      "fold": 3,
+      "test_year": 2022,
+      "accuracy": 0.4878616139401117,
+      "precision": 0.48787678767876785,
+      "f1": 0.6467928711022956
+    },
+    {
+      "fold": 4,
+      "test_year": 2023,
+      "accuracy": 0.5273473108477666,
+      "precision": 0.5284388185654009,
+      "f1": 0.6870936771361953
+    },
+    {
+      "fold": 5,
+      "test_year": 2024,
+      "accuracy": 0.5202857142857142,
+      "precision": 0.520479727766942,
+      "f1": 0.6809457882020794
+    },
+    {
+      "fold": 6,
+      "test_year": 2025,
+      "accuracy": 0.5908695652173913,
+      "precision": 0.5926418439716312,
+      "f1": 0.7396957123098202
+    }
+  ],
+  "summary": {
+    "mean_accuracy": 0.5326090127832889,
+    "std_accuracy": 0.033464903560629665,
+    "mean_precision": 0.5329966016454224,
+    "std_precision": 0.0340474855647725,
+    "mean_f1": 0.6900525762850162,
+    "std_f1": 0.03004238081982853
+  }
+}

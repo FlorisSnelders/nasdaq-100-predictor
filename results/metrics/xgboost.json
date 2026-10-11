@@ -1,0 +1,56 @@
+{
+  "model_name": "xgboost",
+  "description": "XGBoost production config (3 fixed features, frozen hyperparameters)",
+  "per_fold": [
+    {
+      "fold": 1,
+      "test_year": 2020,
+      "accuracy": 0.5394412489728841,
+      "precision": 0.547055218142308,
+      "f1": 0.6605887300252313
+    },
+    {
+      "fold": 2,
+      "test_year": 2021,
+      "accuracy": 0.5225452646239555,
+      "precision": 0.5286397947604716,
+      "f1": 0.6614197530864198
+    },
+    {
+      "fold": 3,
+      "test_year": 2022,
+      "accuracy": 0.47686516663847067,
+      "precision": 0.4816124790277967,
+      "f1": 0.6319954776710006
+    },
+    {
+      "fold": 4,
+      "test_year": 2023,
+      "accuracy": 0.5285074997928234,
+      "precision": 0.5285074997928234,
+      "f1": 0.6915340616443927
+    },
+    {
+      "fold": 5,
+      "test_year": 2024,
+      "accuracy": 0.5105714285714286,
+      "precision": 0.5177194227584575,
+      "f1": 0.6460221402214023
+    },
+    {
+      "fold": 6,
+      "test_year": 2025,
+      "accuracy": 0.5908695652173913,
+      "precision": 0.5908695652173913,
+      "f1": 0.7428259087182291
+    }
+  ],
+  "summary": {
+    "mean_accuracy": 0.5281333623028256,
+    "std_accuracy": 0.03750177509045413,
+    "mean_precision": 0.532400663283208,
+    "std_precision": 0.03593785694451709,
+    "mean_f1": 0.6723976785611127,
+    "std_f1": 0.03978519758226498
+  }
+}

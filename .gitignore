@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Tests and coverage
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Secrets (the FRED key for the live macro job lives in .env)
+.env
+.env.*
+
+# Data: downloaded or generated, never committed (see data/README.md)
+data/*
+!data/README.md
+*.csv
+*.parquet
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+
+# Generated reports
+reports/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

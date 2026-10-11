@@ -1,0 +1,56 @@
+{
+  "model_name": "logistic_regression",
+  "description": "Logistic regression baseline on all 18 features",
+  "per_fold": [
+    {
+      "fold": 1,
+      "test_year": 2020,
+      "accuracy": 0.5388478042545422,
+      "precision": 0.538724584103512,
+      "f1": 0.6977078221317853
+    },
+    {
+      "fold": 2,
+      "test_year": 2021,
+      "accuracy": 0.5220229805013927,
+      "precision": 0.5290400849213972,
+      "f1": 0.6558876981888826
+    },
+    {
+      "fold": 3,
+      "test_year": 2022,
+      "accuracy": 0.4956860091355101,
+      "precision": 0.4900683816346467,
+      "f1": 0.6023212379935966
+    },
+    {
+      "fold": 4,
+      "test_year": 2023,
+      "accuracy": 0.5226651197480733,
+      "precision": 0.5485188968335035,
+      "f1": 0.5479161761243231
+    },
+    {
+      "fold": 5,
+      "test_year": 2024,
+      "accuracy": 0.5191020408163265,
+      "precision": 0.525565755764304,
+      "f1": 0.6256830601092896
+    },
+    {
+      "fold": 6,
+      "test_year": 2025,
+      "accuracy": 0.5843478260869566,
+      "precision": 0.6065573770491803,
+      "f1": 0.7058461538461539
+    }
+  ],
+  "summary": {
+    "mean_accuracy": 0.5304452967571335,
+    "std_accuracy": 0.029814187552579276,
+    "mean_precision": 0.5397458467177573,
+    "std_precision": 0.03827617750784316,
+    "mean_f1": 0.6392270247323385,
+    "std_f1": 0.06003138714775088
+  }
+}

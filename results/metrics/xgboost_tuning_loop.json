@@ -1,0 +1,56 @@
+{
+  "model_name": "xgboost_tuning_loop",
+  "description": "XGBoost with per-fold feature selection + Optuna (section 7)",
+  "per_fold": [
+    {
+      "fold": 1,
+      "test_year": 2020,
+      "accuracy": 0.5237377887336803,
+      "precision": 0.5326980113774493,
+      "f1": 0.6774462822692843
+    },
+    {
+      "fold": 2,
+      "test_year": 2021,
+      "accuracy": 0.5283774373259053,
+      "precision": 0.5284377882208265,
+      "f1": 0.689512893982808
+    },
+    {
+      "fold": 3,
+      "test_year": 2022,
+      "accuracy": 0.5033412282185755,
+      "precision": 0.49522728445384656,
+      "f1": 0.6204466854132324
+    },
+    {
+      "fold": 4,
+      "test_year": 2023,
+      "accuracy": 0.48839811054943233,
+      "precision": 0.5506958250497018,
+      "f1": 0.2641396984325645
+    },
+    {
+      "fold": 5,
+      "test_year": 2024,
+      "accuracy": 0.519795918367347,
+      "precision": 0.5200559509606286,
+      "f1": 0.6824304262153481
+    },
+    {
+      "fold": 6,
+      "test_year": 2025,
+      "accuracy": 0.5860869565217391,
+      "precision": 0.5946952070730572,
+      "f1": 0.7286202964652223
+    }
+  ],
+  "summary": {
+    "mean_accuracy": 0.5249562399527798,
+    "std_accuracy": 0.033408047532534485,
+    "mean_precision": 0.536968344522585,
+    "std_precision": 0.03358626406490586,
+    "mean_f1": 0.61043271379641,
+    "std_f1": 0.17315634592227125
+  }
+}
